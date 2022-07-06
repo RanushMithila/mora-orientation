@@ -6,5 +6,5 @@ Moratuwa orientation program web project
 
 | Status | Name | Work |
 | :---:  |:---: | ---: |
-|  :o:   | Ranush Mithila |
-|  :o:   | Kaushalya      |
+|  :o:   | Ranush Mithila |   -   |
+|  :o:   | Kaushalya      |   -   |
