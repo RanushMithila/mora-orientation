@@ -8,3 +8,5 @@ Moratuwa orientation program web project
 | :---:  |:---: | :---: |
 |  :o:   | Ranush Mithila |   -   |
 |  :o:   | Kaushalya      |   -   |
+|  :o:   | shamil      |   -   |
+|  :o:   | Parimalan      |   -   |
