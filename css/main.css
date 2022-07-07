@@ -130,3 +130,17 @@ table {
   display: table;
   clear: both;
 }
+
+.itemDes {
+  display: flex;
+  align-items: center;
+
+}
+
+img.itemImg {
+  margin-right: 10px;
+}
+
+p.itemName {
+
+}

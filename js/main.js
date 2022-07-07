@@ -36,8 +36,6 @@ function changePrice(element){
 
     price = parseFloat(price[1]);
 
-    //alert(price + " " + qty);
-
     var newPrice = (price * qty).toFixed(2);
 
     document.getElementById(priceID).textContent = '$ ' + newPrice;
