@@ -3,7 +3,7 @@ var qty = 0;
 function plus(element){
     qtyID = 'qty['+element+']';
     qty = parseInt(document.getElementById(qtyID).value);
-    alert(qty);
+    //alert(qty);
     qty = qty + 1;
 
     document.getElementById(qtyID).value = qty;
@@ -28,8 +28,9 @@ function minus(element){
 }
 
 function changePrice(element){
-    priceID = 'pricePerUnit['+element+']';
-    var price = document.getElementById(priceID).textContent;
+    pricePerID = 'pricePerUnit['+element+']';
+    priceID = 'price['+element+']';
+    var price = document.getElementById(pricePerID).textContent;
 
     var price = price.split(" ");
 
@@ -39,6 +40,6 @@ function changePrice(element){
 
     var newPrice = (price * qty).toFixed(2);
 
-    document.getElementById('price').textContent = '$ ' + newPrice;
+    document.getElementById(priceID).textContent = '$ ' + newPrice;
 }
 
