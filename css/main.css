@@ -7,6 +7,7 @@ body{
   padding: 0px;
   text-align: center;
   height: 200px;
+  overflow-y: hidden
 }
 
 
@@ -46,6 +47,11 @@ body{
 }
 
 
+.big {
+  width: 100%;
+}
+
+
 /* nav bar */
 
 ul.nav {
@@ -54,6 +60,8 @@ ul.nav {
     padding: 0;
     overflow: hidden;
     background-color: #111;
+    position: fixed;
+    width: 100%;
   }
   
   li.nav {
@@ -64,8 +72,9 @@ ul.nav {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 16px;
     text-decoration: none;
+    font-size: 20px;
   }
   
   li a:hover.nav {
@@ -133,7 +142,7 @@ table {
   float: left;
   width: 30%;
   padding: 15px;
-  margin-left: 0.3%;
+  
 }
 
 .col {
@@ -169,7 +178,16 @@ hr.cart{
   border: 1px solid #808080;
 }
 
-input[type=text]{
+input[type=text], input[type=mail]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.msg {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -186,8 +204,42 @@ img.contactImg {
 }
 
 p.contactPara{
-  padding-top: 50px;
-  font-size: 30px;
+  padding-top: 45px;
+  font-size: 35px;
   color: white;
   font-weight: bold;
+}
+
+
+h3.heading {
+  font-size: 20px;
+  color: #363636b6;
+}
+
+.details {
+  color: #808080;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.addPad {
+  padding-top: 60px;
+  padding-left: 60px;
+  padding-bottom: 252.2px;
+}
+
+
+p,h3,h2,h1 {
+  font-family:'Times New Roman', Times, serif;
+}
+
+.border {
+  border: 1px solid rgba(0, 0, 0, 0.422);
+}
+
+.blue {
+  color: #5bc0de;
 }
