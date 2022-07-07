@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Checkout - STORE</title>
     <link rel="stylesheet" href="css/main.css">
-    <script src="/js/main.js"></script>
+    <script src="./js/main.js"></script>
 </head>
 <body>
     <div class="row">
@@ -21,9 +21,9 @@
                     <td>T-shirt</td>
                     <td>$ 5.00</td>
                     <td>
-                        <input class="addItem" type="button" value="-">
+                        <input class="addItem" id="minus" onclick="minus()" type="button" value="-">
                         <input class="qty" type="number" name="qty" id="qty"value="1">
-                        <input class="addItem" type="button" value="+">
+                        <input class="addItem" id="plus" onclick="plus()" type="button" value="+">
                     </td>
                     <td>$ 5.00</td>
                 </tr>
