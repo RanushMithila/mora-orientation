@@ -2,6 +2,14 @@ body{
     margin: 0px;
 }
 
+.header {
+  background-color: transparent;
+  padding: 0px;
+  text-align: center;
+  height: 200px;
+}
+
+
 .btn {
     border: none;
     color: white;
@@ -161,4 +169,18 @@ input[type=text]{
   display: inline-block;
   border: 1px solid #ccc;
   box-sizing: border-box;
+}
+
+img.contactImg {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+
+p.contactPara{
+  padding-top: 50px;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
 }
