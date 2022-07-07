@@ -161,6 +161,13 @@ table {
   margin-right: 40px;
 }
 
+.col-2 {
+  float: left;
+  width: 20%;
+  padding: 15px;
+  margin-right: 40px;
+}
+
 .col {
   float: left;
   width: 10%;
@@ -260,4 +267,19 @@ p,h3,h2,h1 {
 
 .blue {
   color: #5bc0de;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(32, 32, 32);
+  color: white;
+  text-align: center;
+}
+
+.footer a {
+  color: white;
+  margin: 30px;
 }
