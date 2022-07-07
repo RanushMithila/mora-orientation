@@ -9,7 +9,6 @@
 </head>
 <body>
     <div class="row">
-        <div class="col"></div>
         <div class="col">
             <table class="items">
                 <tr>
@@ -29,7 +28,7 @@
                     <td id="price[0]">$ 5.20</td>
                 </tr>
                 <tr>
-                    <td>T-shirt</td>
+                    <td class="itemDes"><img class="itemImg" src="./img/t-shirt2.png" alt="" width="100px" height="100px"> <p class="itemName">T-shirt</p></td>
                     <td id="pricePerUnit[1]">$ 5.20</td>
                     <td>
                         <input class="addItem" id="minus[1]" onclick="minus(1)" type="button" value="-">
@@ -40,7 +39,19 @@
                 </tr>
             </table>
         </div>
-        <div class="col"></div>
+        <div class="col">
+            <h2>CART TOTALS</h2>
+            <p>Subtotal: </p>
+            <hr class="cart">
+            <p>
+                <input type="text" class="round" placeholder="Coupon code">
+                <input type="button" value="Apply" class="btn info round">
+                <input type="reset" value="Clear" class="btn danger round">
+            </p>
+            <p class="discount"></p>
+            <hr class="cart">
+            <p>Total: </p>
+        </div>
     </div>
 </body>
 </html>

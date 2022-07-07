@@ -14,6 +14,10 @@ body{
     cursor: pointer;
     border-radius: 8px;
 }
+
+.round{
+  border-radius: 30px;
+}
 .primary {
     background-color: #0275d8;
 }
@@ -119,7 +123,7 @@ table {
 
 .col {
   float: left;
-  width: 31%;
+  width: auto;
   padding: 15px;
   margin-left: 0.3%;
 }
@@ -142,5 +146,19 @@ img.itemImg {
 }
 
 p.itemName {
+  color: #808080;
+  font-size: 20px;
+}
 
+hr.cart{
+  border: 1px dashed #808080;
+}
+
+input[type=text]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
 }
