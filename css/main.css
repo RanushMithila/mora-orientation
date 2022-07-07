@@ -1,3 +1,7 @@
+body{
+    margin: 0px;
+}
+
 .btn {
     border: none;
     color: white;
@@ -28,3 +32,34 @@
 .inverse {
     background-color: #292b2c;
 }
+
+
+/* nav bar */
+
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+  }
+  
+  li.nav {
+    float: left;
+  }
+  
+  li a.nav {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover.nav {
+    background-color: #5bc0de;
+  }
+
+  .active {
+    background-color: #5bc0de;
+  }
