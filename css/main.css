@@ -129,9 +129,16 @@ table {
   margin: 0;
 }
 
+.col-3 {
+  float: left;
+  width: 30%;
+  padding: 15px;
+  margin-left: 0.3%;
+}
+
 .col {
   float: left;
-  width: auto;
+  width: 10%;
   padding: 15px;
   margin-left: 0.3%;
 }
@@ -159,7 +166,7 @@ p.itemName {
 }
 
 hr.cart{
-  border: 1px dashed #808080;
+  border: 1px solid #808080;
 }
 
 input[type=text]{
