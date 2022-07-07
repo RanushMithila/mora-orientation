@@ -6,7 +6,7 @@ Moratuwa orientation program web project
 
 | Status | Name           | Work  |
 | :---:  |:---:           | :---: |
-|  :o:   | Ranush Mithila |   add to card   |
+|  :o:   | Ranush Mithila |   cart page   |
 |  :o:   | Kaushalya      |   contact   |
 |  :o:   | shamil         |   -   |
 |  :o:   | Parimalan      |   -   |
