@@ -12,7 +12,11 @@ body{
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    border-radius: 30px;
+    border-radius: 8px;
+}
+
+.round{
+  border-radius: 30px;
 }
 .primary {
     background-color: #0275d8;
