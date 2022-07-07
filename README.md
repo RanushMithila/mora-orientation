@@ -2,7 +2,7 @@
 Moratuwa orientation program web project 
 
 
-##Works
+## Works
 
 | Status | Name           | Work  |
 | :---:  |:---:           | :---: |
@@ -10,3 +10,7 @@ Moratuwa orientation program web project
 |  :o:   | Kaushalya      |   contact   |
 |  :o:   | shamil         |   -   |
 |  :o:   | Parimalan      |   -   |
+
+## Resources
+
+- CSS: https://www.w3schools.com/css/
