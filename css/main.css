@@ -116,3 +116,17 @@ table {
   -webkit-appearance: none;
   margin: 0;
 }
+
+.col {
+  float: left;
+  width: 31%;
+  padding: 15px;
+  margin-left: 0.3%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

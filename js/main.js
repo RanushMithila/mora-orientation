@@ -1,17 +1,19 @@
 var qty = 0;
 
-function plus(){
-    qty = parseInt(document.getElementById('qty').value);
-
+function plus(element){
+    qtyID = 'qty['+element+']';
+    qty = parseInt(document.getElementById(qtyID).value);
+    alert(qty);
     qty = qty + 1;
 
-    document.getElementById('qty').value = qty;
+    document.getElementById(qtyID).value = qty;
 
-    changePrice();
+    changePrice(element);
 }
 
-function minus(){
-    qty = parseInt(document.getElementById('qty').value);
+function minus(element){
+    qtyID = 'qty['+element+']';
+    qty = parseInt(document.getElementById(qtyID).value);
 
     qty = qty - 1;
 
@@ -20,13 +22,14 @@ function minus(){
         qty = qty + 1;
     }
 
-    document.getElementById('qty').value = qty;
+    document.getElementById(qtyID).value = qty;
 
-    changePrice();
+    changePrice(element);
 }
 
-function changePrice(){
-    var price = document.getElementById('pricePerUnit').textContent;
+function changePrice(element){
+    priceID = 'pricePerUnit['+element+']';
+    var price = document.getElementById(priceID).textContent;
 
     var price = price.split(" ");
 
@@ -38,3 +41,4 @@ function changePrice(){
 
     document.getElementById('price').textContent = '$ ' + newPrice;
 }
+

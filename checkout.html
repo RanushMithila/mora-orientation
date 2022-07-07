@@ -9,6 +9,7 @@
 </head>
 <body>
     <div class="row">
+        <div class="col"></div>
         <div class="col">
             <table class="items">
                 <tr>
@@ -19,16 +20,27 @@
                 </tr>
                 <tr>
                     <td>T-shirt</td>
-                    <td id="pricePerUnit">$ 5.20</td>
+                    <td id="pricePerUnit[0]">$ 5.20</td>
                     <td>
-                        <input class="addItem" id="minus" onclick="minus()" type="button" value="-">
-                        <input class="qty" type="number" name="qty" id="qty"value="1">
-                        <input class="addItem" id="plus" onclick="plus()" type="button" value="+">
+                        <input class="addItem" id="minus[0]" onclick="minus(0)" type="button" value="-">
+                        <input class="qty" type="number" name="qty" id="qty[0]"value="1">
+                        <input class="addItem" id="plus[0]" onclick="plus(0)" type="button" value="+">
+                    </td>
+                    <td id="price">$ 5.20</td>
+                </tr>
+                <tr>
+                    <td>T-shirt</td>
+                    <td id="pricePerUnit[1]">$ 5.20</td>
+                    <td>
+                        <input class="addItem" id="minus[1]" onclick="minus(1)" type="button" value="-">
+                        <input class="qty" type="number" name="qty" id="qty[1]"value="1">
+                        <input class="addItem" id="plus[1]" onclick="plus(1)" type="button" value="+">
                     </td>
                     <td id="price">$ 5.20</td>
                 </tr>
             </table>
         </div>
+        <div class="col"></div>
     </div>
 </body>
 </html>
