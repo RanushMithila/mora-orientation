@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/main.css">
     <script src="./js/main.js"></script>
 </head>
-<body>
+<body onload="subTot()">
     <ul class="nav">
         <li class="nav"><a class="nav" href="index.html">Home</a></li>
         <li class="nav"><a class="nav" href="item.html">Item</a></li>
@@ -54,16 +54,16 @@
         </div>
         <div class="col-3 border">
             <h2>CART TOTALS</h2>
-            <p>Subtotal: </p>
+            <p id="subTot">Subtotal: </p>
             <hr class="cart">
             <p>
-                <input type="text" class="round" placeholder="Coupon code">
-                <input type="button" value="Apply" class="btn info round">
+                <input type="text" class="round" id="couponCode" placeholder="Coupon code">
+                <input type="button" value="Apply" onclick="couponValid()" class="btn info round">
                 <input type="reset" value="Clear" class="btn danger round">
             </p>
-            <p class="discount"></p>
+            <p class="discount" id="discount"></p>
             <hr class="cart">
-            <p>Total: </p>
+            <p id="calTot">Total: </p>
         </div>
     </div>
 
