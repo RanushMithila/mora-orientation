@@ -8,8 +8,8 @@ Moratuwa orientation program web project
 | :---:  |:---:           | :---: |
 |  :heavy_check_mark:   | Ranush Mithila |   cart page   |
 |  :heavy_check_mark:   | Kaushalya      |   contact   |
-|  :o:   | shamil         |   item   |
-|  :o:   | Parimalan      |   -   |
+|  :o:   | shamil         |   item page   |
+|  :o:   | Parimalan      |   home page   |
 
 ## Resources
 
