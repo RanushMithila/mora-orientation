@@ -175,6 +175,11 @@ table {
   margin-left: 0.3%;
 }
 
+.row {
+  padding: 100px;
+
+}
+
 /* Clear floats after the columns */
 .row:after {
   content: "";
@@ -270,16 +275,22 @@ p,h3,h2,h1 {
 }
 
 .footer {
-  position: fixed;
+  position: absolute;
   left: 0;
-  bottom: 0;
+  margin-bottom: 0;
   width: 100%;
   background-color: rgb(32, 32, 32);
   color: white;
   text-align: center;
 }
 
-.footer a {
-  color: white;
-  margin: 30px;
+.footA {
+  color: rgba(255, 255, 255, 0.726);
+  line-height: 1.6;
+  font-family: sans-serif;
 }
+
+.foothead {
+  font-size: 20px;
+}
+
