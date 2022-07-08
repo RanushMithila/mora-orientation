@@ -44,6 +44,7 @@ function changePrice(element){
     subTot();
 }
 
+
 function couponValid(){
     calTot();
     discount = 0.0;
