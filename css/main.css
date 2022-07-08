@@ -151,7 +151,12 @@ table {
   float: left;
   width: 30%;
   padding: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   
+}
+
+.col-3:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .col-4 {
@@ -159,6 +164,11 @@ table {
   width: 40%;
   padding: 15px;
   margin-right: 40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.col-4:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .col-2 {
@@ -257,6 +267,7 @@ a {
 .addPad {
   padding-top: 60px;
   padding-left: 60px;
+  margin-left: 10px;
   padding-bottom: 252.2px;
 }
 
@@ -294,3 +305,14 @@ p,h3,h2,h1 {
   font-size: 20px;
 }
 
+.sub {
+  background-color: transparent;
+  color: white;
+}
+
+.sub:focus{
+  outline: none;
+  border-color: #0275d8;
+  border: 1px solid #0275d8;
+
+}
