@@ -53,9 +53,11 @@ function couponValid(){
         alert('You recieved 10% discount');
         discount = (tot * 0.1).toFixed(2);
         document.getElementById('discount').innerHTML = "Discount : " + discount;
+        document.getElementById('couponCode').style = 'border: 2px green solid';
         subTot();
         //alert(tot);
     }else{
+        document.getElementById('couponCode').style = 'border: 2px red solid';
         alert('Please enter valid coupon code');
     }
 }
