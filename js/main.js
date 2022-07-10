@@ -90,4 +90,3 @@ function subTot(){
     document.getElementById('subTot').innerHTML = 'Total: ' + tot;
     calTot();
 }
-

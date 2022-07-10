@@ -216,7 +216,7 @@ hr.cart{
   border: 1px solid #808080;
 }
 
-input[type=text], input[type=mail]{
+input[type=text], input[type=email]{
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
