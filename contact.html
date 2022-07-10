@@ -24,13 +24,13 @@
         <div class="col"></div>
         <div class="col-3 border">
             <h2 style=" color: #363636b6;">Send Us A Message</h2>
-            <form action="#" method="post">
-                <input type="text" class="round" placeholder="First Name" required>
-                <input type="text" class="round" placeholder="Last Name" required>
-                <input type="text" class="round" id="mobile" placeholder="Mobile Number" required pattern="[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]">
-                <input type="email" class="round" placeholder="E-mail" required>
+            <form action="#" method="post" onmouseover="valid()">
+                <input type="text" class="round" id="fname" placeholder="First Name" required>
+                <input type="text" class="round" id="lname" placeholder="Last Name" required>
+                <input type="text" class="round" id="mob" id="mobile" placeholder="Mobile Number" required pattern="[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]">
+                <input type="email" class="round" id="mail" placeholder="E-mail" required>
                 <textarea class="msg round" name="msg" id="msg" cols="30" rows="10" placeholder="Enter your message" required></textarea>
-                <input type="submit" value="SEND" class="btn info round big">
+                <button type="submit" id="snedContact" class="btn info round big">SEND</button>
             </form>
         </div>
         <div class="col-3 addPad border">

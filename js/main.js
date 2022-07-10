@@ -90,3 +90,21 @@ function subTot(){
     document.getElementById('subTot').innerHTML = 'Total: ' + tot;
     calTot();
 }
+
+
+function valid(){
+    //alert ('test');
+    document.getElementById('snedContact').disabled = true;
+    var fname = document.getElementById('fname').value;
+    var lname = document.getElementById('lname').value;
+    var mob = document.getElementById('mob').value;
+    var mail = document.getElementById('mail').value;
+    var msg = document.getElementById('msg').value;
+    //alert ('test1');
+    if (fname != "" && lname != "" && mob != "" && mail != "" && msg != ""){
+        //alert('test2');
+        document.getElementById('snedContact').disabled = false;
+    }
+
+
+}
