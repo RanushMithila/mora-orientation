@@ -30,20 +30,49 @@ body{
 .primary {
     background-color: #0275d8;
 }
+
+.primary:hover {
+  background-color: #0a67b9;
+}
+
 .success {
     background-color: #5cb85c;
 }
+
+.success:hover {
+  background-color: #419741;
+}
+
 .info {
     background-color: #5bc0de;
 }
+
+.info:hover {
+  background-color: #53adc8;
+}
+
 .warning {
     background-color: #f0ad4e;
 }
+
+.warning:hover {
+  background-color: #e09e42;
+}
+
 .danger {
     background-color: #d9534f;
 }
+
+.danger:hover {
+  background-color: #ca4b47;
+}
+
 .inverse {
     background-color: #292b2c;
+}
+
+.inverse:hover {
+  background-color: #232425;
 }
 
 
@@ -139,6 +168,11 @@ table {
 	transition: background-color .2s linear;
 	-webkit-transition: background-color .2s linear;
 	-o-transition: background-color .2s linear;
+  }
+
+  .addItem:hover {
+    background-color: rgba(17, 17, 17, 0.693);
+    color: white;
   }
 
   input::-webkit-outer-spin-button,
