@@ -92,6 +92,7 @@ function subTot(){
 }
 
 
+
 function valid(){
     //alert ('test');
     document.getElementById('snedContact').disabled = true;
