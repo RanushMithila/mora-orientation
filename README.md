@@ -2,6 +2,11 @@
 Moratuwa orientation program web project 
 
 
+## Language
+
+![HTML, CSS, JS](https://skills.thijs.gg/icons?i=html,css,js)
+
+
 ## Works
 
 | Status | Name           | Work  |
