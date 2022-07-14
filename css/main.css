@@ -213,6 +213,7 @@ table {
   margin-right: 40px;
 }
 
+
 .col {
   float: left;
   width: 10%;
@@ -225,8 +226,20 @@ table {
 
 }
 
+.row-item {
+  padding-top: 100px;
+  padding-left: 20px;
+
+}
+
 /* Clear floats after the columns */
 .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row-item:after {
   content: "";
   display: table;
   clear: both;
@@ -251,7 +264,7 @@ hr.cart{
   border: 1px solid #808080;
 }
 
-input[type=text], input[type=email]{
+input[type=text], input[type=email],select{
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
