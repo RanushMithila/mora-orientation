@@ -197,3 +197,7 @@ h4 {
   border-color: #0275d8;
   border: 1px solid #0275d8;
 }
+
+a {
+	text-decoration: none;
+  }
