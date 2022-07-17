@@ -1,18 +1,44 @@
-<html>
-    <head>
-        <title id="title">Document</title>
-        <script type="text/javascript">
-            function btnClick(){
-                var name = document.getElementById('title').textContent;
-                document.getElementById('output').innerHTML = name;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function category(userinput){
+            var details = [
+                [
+                    'Front Pocket Oversized Shirt',
+                    '$60.00',
+                    './img/drs7.jpg',
+                    'women'
+                ],
+                [
+                    'Plaid Flannel Jacket',
+                    '$120.00',
+                    './img/drs8.jpg',
+                    'men'
+                ]
+            ];
+            var x = 0;
+            document.getElementById('out').innerHTML = '';
+            while (x < 2){
+
+                if (details[x][3] == userinput){
+                    document.getElementById('out').innerHTML += '<img src="' + details[x][2] + '" alt="" width="20%"><p>' + details[x][0] + '</p><p>' + details[x][1] + '</p>';
+                }else if (userinput == 'all'){
+                    document.getElementById('out').innerHTML += '<img src="' + details[x][2] + '" alt="" width="20%"><p>' + details[x][0] + '</p><p>' + details[x][1] + '</p>';
+                }
+                x++;
             }
-        </script>
-    </head>
-    <body>
-        <input type="text" name="fname" id="fname">
-        <input type="submit" onclick="btnClick()" value="Submit">
-        <p id="output">
-            
-        </p>
-    </body>
+        }
+    </script>
+</head>
+<body>
+        <input type="button" value="all" onclick="category('all')">
+        <input type="button" value="women" onclick="category('women')">
+        <input type="button" value="men" onclick="category('men')">
+        <p id="out"></p>
+</body>
 </html>
