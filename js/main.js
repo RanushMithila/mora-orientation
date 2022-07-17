@@ -109,3 +109,8 @@ function valid(){
 
 
 }
+
+function changeImg(tagID) {
+    var img = document.getElementById(tagID).src;
+    document.getElementById('mainImg').src = img;
+}
