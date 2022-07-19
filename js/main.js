@@ -158,7 +158,6 @@ function filterItem(itemCat){
     ];
 
     var i = 0;
-    //alert(items.length);
     var itemCount = items.length;
     while ( i < itemCount){
         if (itemCat == 'All'){
