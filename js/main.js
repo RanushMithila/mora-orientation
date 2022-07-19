@@ -114,3 +114,49 @@ function changeImg(tagID) {
     var img = document.getElementById(tagID).src;
     document.getElementById('mainImg').src = img;
 }
+
+
+function filterItem(itemID){
+    var items = [
+        [
+            '<div class="rw2">',
+            '<a href="./item.html" >',
+            '<img src="img/drs7.jpg">',
+            '<h4>Front Pocket Oversized Shirt </h4>',
+            '<p>$60.00</p>',
+            '</a>',
+            '</div>'
+        ],
+        [
+            '<div class="rw2">',
+            '<a href="./item.html" >',
+            '<img src="img/drs8.jpg">',
+            '<h4>Plaid Flannel Jacket </h4>',
+            '<p>$120.00</p>',
+            '</a>',
+            '</div>'
+        ],
+        [
+            '<div class="rw2">',
+		'<a href="./item.html" >',
+			'<img src="img/drs4.jpg">',
+			'<h4>Casual Long sleeve Hoodie Jacket</h4>',
+			'<p>$40.00</p>',
+		'</a>',
+	  '</div>'
+        ],
+        [
+            '<div class="rw2">',
+		'<a href="./item.html" >',
+			'<img src="img/drs13.jpg">',
+			'<h4>Black Mini Cat-Eye Sun glasses </h4>',
+			'<p>$110.00</p>',
+		'</a>',
+	  '</div>',
+        ]
+    ];
+
+    var i = 0;
+    alert(items.length);
+    // while ( i < )
+}
