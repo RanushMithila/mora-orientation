@@ -116,47 +116,56 @@ function changeImg(tagID) {
 }
 
 
-function filterItem(itemID){
+function filterItem(itemCat){
+    document.getElementById('itemList').innerHTML = "";
     var items = [
         [
-            '<div class="rw2">',
-            '<a href="./item.html" >',
-            '<img src="img/drs7.jpg">',
-            '<h4>Front Pocket Oversized Shirt </h4>',
-            '<p>$60.00</p>',
-            '</a>',
-            '</div>'
+            'img/drs7.jpg',
+            'Front Pocket Oversized Shirt ',
+            '$60.00',
+            'Women'
         ],
         [
-            '<div class="rw2">',
-            '<a href="./item.html" >',
-            '<img src="img/drs8.jpg">',
-            '<h4>Plaid Flannel Jacket </h4>',
-            '<p>$120.00</p>',
-            '</a>',
-            '</div>'
+            'img/drs8.jpg',
+            'Plaid Flannel Jacket ',
+            '$120.00',
+            'Men'
         ],
         [
-            '<div class="rw2">',
-		'<a href="./item.html" >',
-			'<img src="img/drs4.jpg">',
-			'<h4>Casual Long sleeve Hoodie Jacket</h4>',
-			'<p>$40.00</p>',
-		'</a>',
-	  '</div>'
+			'img/drs4.jpg',
+			'Casual Long sleeve Hoodie Jacket',
+			'$40.00',
+            'Women'
         ],
         [
-            '<div class="rw2">',
-		'<a href="./item.html" >',
-			'<img src="img/drs13.jpg">',
-			'<h4>Black Mini Cat-Eye Sun glasses </h4>',
-			'<p>$110.00</p>',
-		'</a>',
-	  '</div>',
+			'img/drs13.jpg',
+			'Black Mini Cat-Eye Sun glasses ',
+			'$110.00',
+            'Women'
+        ],
+        [
+            'img/drs3.jpg',
+            'Cute Casual Oversized  Shirt',
+            '$35.00',
+            'Women'
+        ],
+        [
+            'img/drs1.jpg',
+            'Hight Waist Baggy Boyfriend Jeans',
+            '$85.00',
+            'Women'
         ]
     ];
 
     var i = 0;
-    alert(items.length);
-    // while ( i < )
+    //alert(items.length);
+    var itemCount = items.length;
+    while ( i < itemCount){
+        if (itemCat == 'All'){
+            document.getElementById('itemList').innerHTML += '<div class="rw2"><a href="./item.html" ><img src="'+items[i][0]+'"><h4>'+items[i][1]+'</h4><p>'+items[i][2]+'</p></a></div>';
+        }else if (items[i][3] == itemCat){
+            document.getElementById('itemList').innerHTML += '<div class="rw2"><a href="./item.html" ><img src="'+items[i][0]+'"><h4>'+items[i][1]+'</h4><p>'+items[i][2]+'</p></a></div>';
+        }
+        i++;
+    }
 }
