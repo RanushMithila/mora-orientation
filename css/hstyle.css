@@ -33,6 +33,10 @@ ul.nav {
     background-color: #5bc0de;
   }
 
+  li a:hover.logo {
+    background-color: #e4e4e4;
+  }
+
   .active {
     background-color: #5bc0de;
   }
