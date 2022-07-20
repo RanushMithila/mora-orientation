@@ -154,6 +154,18 @@ function filterItem(itemCat){
             'Hight Waist Baggy Boyfriend Jeans',
             '$85.00',
             'Women'
+        ],
+        [
+            'img/drs11.jpg',
+            'Long sleeve Jacket',
+            '$90.00',
+            'Men'
+        ],
+        [
+            'img/drs9.jpg',
+            'Casual Long sleeve Jacket',
+            '$70.00',
+            'Men'
         ]
     ];
 
