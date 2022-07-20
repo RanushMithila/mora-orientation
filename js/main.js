@@ -141,7 +141,7 @@ function filterItem(itemCat){
 			'img/drs13.jpg',
 			'Black Mini Cat-Eye Sun glasses ',
 			'$110.00',
-            'Women'
+            'Accessories'
         ],
         [
             'img/drs3.jpg',
