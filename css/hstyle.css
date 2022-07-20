@@ -11,7 +11,7 @@ ul.nav {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #111;
+    background-color: #e4e4e4;
     position: fixed;
     width: 100%;
   }
@@ -22,7 +22,7 @@ ul.nav {
   
   li a.nav {
     display: block;
-    color: white;
+    color: #111;
     text-align: center;
     padding: 20px 16px;
     text-decoration: none;
